@@ -2,9 +2,48 @@
     width: 270px;
     height: 300px;
     margin: 100px auto;
-    background-color: purple;
 }
 .googlelogo{
     width: 270px;
-    margin-top: 200px;
+    margin-top: 100px;
+}
+.searchcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 482px;
+    height: 44px;
+    margin: -200px auto;
+    background-color: blue;
+    color: white;
+    border-radius: 32px;
+}
+.buttons{
+    width: 250px;
+    height: 40px;
+    margin: 200px auto;
+    background-color: pink;
+    color: blue;
+}
+.about{
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px 0px 20px;
+    background-color: blue;
+    color: white;
+}
+.glass{
+    margin: auto;
+    color:lightgray;
+    order: 0;
+}
+.microphone{
+    margin: auto;
+    color: lightgray;
+    order: 2;
+}
+.searchinput{
+    width: 420px;
+    height: 23px;
+    margin: auto;
+    order: 1;
 }
