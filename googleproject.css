@@ -1,49 +1,50 @@
 .logo{
     width: 270px;
     height: 300px;
-    margin: 100px auto;
+    margin: 200px auto -310px auto;
 }
 .googlelogo{
     width: 270px;
-    margin-top: 100px;
 }
 .searchcontainer{
     display: flex;
     justify-content: space-evenly;
     width: 482px;
     height: 44px;
-    margin: -200px auto;
-    background-color: blue;
-    color: white;
+    margin: 130px auto;
+    border: 1px solid lightgray;
     border-radius: 32px;
 }
-.buttons{
-    width: 250px;
-    height: 40px;
-    margin: 200px auto;
-    background-color: pink;
-    color: blue;
-}
-.about{
-    width: 100px;
-    height: 40px;
-    margin: 0px 0px 0px 20px;
-    background-color: blue;
-    color: white;
+.searchcontainer:hover{
+    transform: scale(1);
+    border: 0px;
+    box-shadow: 0px 1px 5px 0px lightgray;
 }
 .glass{
     margin: auto;
-    color:lightgray;
+    padding: 0px 0px 0px 5px;
+    color: gray;
     order: 0;
 }
 .microphone{
     margin: auto;
-    color: lightgray;
+    padding: 0px 10px 0px 0px; 
+    color: cornflowerblue;
     order: 2;
 }
 .searchinput{
-    width: 420px;
-    height: 23px;
-    margin: auto;
+    width: 390px;
+    height: 30px;
+    margin: 6px auto;
+    border: 0;
+    outline-width: 0;
     order: 1;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
