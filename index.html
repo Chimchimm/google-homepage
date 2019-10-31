@@ -10,10 +10,24 @@
     <title>Document</title>
 </head>
 <body>
+    <Header class="container header">
+        <span class="container hed1">
+            <a class="link about" href="#">About</a>
+            <a class="link store" href="#">Store</a>
+        </span>
+        <span class="container hed2">
+            <a class="link gmail" href="#">Gmail</a>
+            <a class="link images" href="#">Images</a>
+            <a class="link" href="#"><i class="fas fa-th"></i></a>
+            <a class="signin" href="#">
+                <p class="sign">Sign In</p>
+            </a>
+        </span>
+    </Header>
     <div class="logo">
         <img class="googleLogo" src="img/googlelogo.png" alt="google logo">
     </div>
-    <span class="searchContainer">
+    <div class="searchContainer">
         <span class="glass"> 
             <i class="fas fa-search"></i>
         </span>
@@ -23,7 +37,11 @@
         <span class="microphone">
             <i class="fas fa-microphone"></i>
         </span>
-    </span>
+    </div>
+    <div class="buttons">
+        <input type="submit" value="Google Search" class="button search">
+        <input type="submit" value="I'm Feeling Lucky" class="button lucky">  
+    </div>
     <footer class="container footer">
         <span class= "container left">
                 <a class="link" href="#">Advertising</a>
